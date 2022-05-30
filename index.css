@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+header input,
+header button {
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+}
+
+.tasks {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+
+.task {
+  list-style-type: none;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.task input {
+  font-size: 1.5rem;
+  padding-left: 1rem;
+}
+
+.task button {
+  font-size: 1.5rem;
+}
+
+.task .edit {
+  background-color: greenyellow;
+}
+
+.task .delete {
+  background-color: tomato;
+}
+
+.task input[type="checkbox"] {
+  width: 1.5rem;
+  height: 1.5rem;
+}
